@@ -1,0 +1,5 @@
+Home.js
+
+<input className="input-country" type="text" placeholder="Enter Country"  onChange={(e) => setCountryName(e.target.value)} />
+
+<button className="button" disabled={countryName.length < 1} onClick={() => getCountryDetails()}>Submit</button>
